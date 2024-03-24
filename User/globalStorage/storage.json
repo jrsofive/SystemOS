@@ -4,11 +4,7 @@
         "workspaces": {
             "file:///usr/src/linux-5.15.90": "__default__profile__"
         },
-        "emptyWindows": {
-            "1711277534637": "__default__profile__",
-            "1711277545667": "__default__profile__",
-            "1711277570393": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
@@ -20,17 +16,7 @@
                 "folderUri": "file:///usr/src/linux-5.15.90"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1711277534637"
-            },
-            {
-                "backupFolder": "1711277545667"
-            },
-            {
-                "backupFolder": "1711277570393"
-            }
-        ]
+        "emptyWindows": []
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -143,6 +129,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -276,6 +269,10 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -471,7 +468,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -677,6 +675,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -776,8 +781,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -785,8 +789,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1313,6 +1316,11 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
+            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1459,6 +1467,11 @@
                 "label": "Ctrl+K Ctrl+\\",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
+            },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "Ctrl+K O",
@@ -1704,44 +1717,23 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 256,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/usr/src/linux-5.15.90/Backups/1711277545667",
+            "folder": "file:///usr/src/linux-5.15.90",
+            "backupPath": "/usr/src/linux-5.15.90/Backups/b73bd19b164f7fba4904c3168c544c15",
             "uiState": {
                 "mode": 1,
-                "x": 180,
-                "y": 327,
-                "width": 1024,
-                "height": 768
+                "x": 72,
+                "y": 64,
+                "width": 1718,
+                "height": 1272
             }
         },
-        "openedWindows": [
-            {
-                "folder": "file:///usr/src/linux-5.15.90",
-                "backupPath": "/usr/src/linux-5.15.90/Backups/b73bd19b164f7fba4904c3168c544c15",
-                "uiState": {
-                    "mode": 1,
-                    "x": 72,
-                    "y": 64,
-                    "width": 1718,
-                    "height": 1272
-                }
-            },
-            {
-                "backupPath": "/usr/src/linux-5.15.90/Backups/1711277545667",
-                "uiState": {
-                    "mode": 1,
-                    "x": 180,
-                    "y": 327,
-                    "width": 1024,
-                    "height": 768
-                }
-            }
-        ]
+        "openedWindows": []
     }
 }

@@ -1,8 +1,0 @@
-2024-03-19 05:34:51.254 [info] update#setState idle
-2024-03-19 05:35:21.258 [info] update#setState checking for updates
-2024-03-19 05:35:21.260 [info] update#setState idle
-2024-03-19 06:35:21.285 [info] update#setState checking for updates
-2024-03-19 06:35:21.287 [info] update#setState idle
-2024-03-19 08:45:41.697 [info] update#setState checking for updates
-2024-03-19 08:45:41.698 [info] update#setState idle
-2024-03-19 09:44:04.418 [error] [UtilityProcess type: shared-process, pid: 3806]: crashed with code 15 and reason 'killed'
