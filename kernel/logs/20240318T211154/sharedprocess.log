@@ -1,0 +1,36 @@
+2024-03-18 21:11:56.404 [error] [uncaught exception in sharedProcess]: Event not found: onDidChange: CodeExpectedError: Event not found: onDidChange
+    at Object.listen (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:45:4960)
+    at E.t (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:44:251)
+    at E.q (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:4371)
+    at y.value (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:3602)
+    at d.y (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1902)
+    at d.z (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1972)
+    at d.fire (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:2188)
+    at MessagePortMain.fe (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:36:30382)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-03-18 21:12:06.881 [error] [uncaught exception in sharedProcess]: Event not found: onDidChange: CodeExpectedError: Event not found: onDidChange
+    at Object.listen (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:45:4960)
+    at E.t (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:44:251)
+    at E.q (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:4371)
+    at y.value (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:3602)
+    at d.y (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1902)
+    at d.z (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1972)
+    at d.fire (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:2188)
+    at MessagePortMain.fe (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:36:30382)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-03-18 21:17:11.757 [info] Getting Manifest... ms-vscode.makefile-tools
+2024-03-18 21:17:11.762 [info] Installing extension: ms-vscode.makefile-tools
+2024-03-18 21:17:13.544 [info] Extension signature is verified: ms-vscode.makefile-tools
+2024-03-18 21:17:13.666 [info] Extracted extension to file:///root/.vscode/extensions/ms-vscode.makefile-tools-0.9.10: ms-vscode.makefile-tools
+2024-03-18 21:17:13.670 [info] Renamed to /root/.vscode/extensions/ms-vscode.makefile-tools-0.9.10
+2024-03-18 21:17:13.673 [info] Extracting extension completed. ms-vscode.makefile-tools
+2024-03-18 21:17:13.681 [info] Extension installed successfully: ms-vscode.makefile-tools
+2024-03-18 21:17:13.730 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/snap/code/155/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)

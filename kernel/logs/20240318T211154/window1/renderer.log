@@ -1,0 +1,13 @@
+2024-03-18 21:11:55.958 [info] Started local extension host with pid 8319.
+2024-03-18 21:11:58.598 [info] [perf] Render performance baseline is 19ms
+2024-03-18 21:12:06.569 [info] Started local extension host with pid 8385.
+2024-03-18 21:12:09.154 [info] [perf] Render performance baseline is 21ms
+2024-03-18 21:17:11.496 [error] Cancelled: Canceled
+    at ie.B (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:28456)
+    at async ie.z (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:25333)
+    at async ne (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:24336)
+    at async ie.query (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:24557)
+    at async Y.queryGallery (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2941:12106)
+    at async ee.Cc (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:22903)
+    at async ee.mc (vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:14515)
+    at async vscode-file://vscode-app/snap/code/155/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:12817

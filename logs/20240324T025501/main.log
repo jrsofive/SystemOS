@@ -1,0 +1,6 @@
+2024-03-24 02:55:01.903 [info] update#setState idle
+2024-03-24 02:55:31.904 [info] update#setState checking for updates
+2024-03-24 02:55:31.906 [info] update#setState idle
+2024-03-24 03:09:07.928 [error] [UtilityProcess type: shared-process, pid: 3073]: crashed with code 15 and reason 'killed'
+2024-03-24 03:09:07.942 [info] Extension host with pid 3063 exited with code: 15, signal: unknown.
+2024-03-24 03:09:07.943 [error] [UtilityProcess id: 1, type: extensionHost, pid: 3063]: crashed with code 15 and reason 'killed'

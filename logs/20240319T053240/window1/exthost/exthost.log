@@ -1,0 +1,21 @@
+2024-03-19 05:32:41.325 [info] Extension host with pid 3478 started
+2024-03-19 05:32:41.342 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-19 05:32:41.347 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-19 05:32:41.395 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-19 05:32:41.451 [info] Eager extensions activated
+2024-03-19 05:32:41.453 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-19 05:32:41.455 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-19 05:32:51.664 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-19 05:32:51.672 [info] Extension host with pid 3478 exiting with code 0
+2024-03-19 05:32:52.453 [info] Extension host with pid 3553 started
+2024-03-19 05:32:52.453 [info] Skipping acquiring lock for /usr/src/linux-5.15.90/User/workspaceStorage/c8167b77e324e2526d620725c270f52b.
+2024-03-19 05:32:52.484 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-03-19 05:32:52.490 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-19 05:32:52.552 [info] Eager extensions activated
+2024-03-19 05:32:52.580 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-19 05:32:52.583 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-19 05:32:54.889 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-03-19 05:32:55.002 [info] ExtensionService#_doActivateExtension ms-vscode.makefile-tools, startup: false, activationEvent: 'workspaceContains:**/makefile,**/Makefile,**/GNUmakefile'
+2024-03-19 05:32:55.197 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-19 05:33:04.877 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-19 05:33:04.884 [info] Extension host with pid 3553 exiting with code 0
